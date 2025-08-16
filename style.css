@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(90deg, blue, green);
+    overflow: hidden;
+    border: none
+}
+
+
+
+
+.temperature-con {
+    margin: auto auto;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 180px;
+}
+
+.temp-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 15px;
+}
+
+
+
+.temp-box input {
+    float: right;
+    outline: none;
+    text-align: left;
+}
+
+input {
+    width: 60%;
+}
